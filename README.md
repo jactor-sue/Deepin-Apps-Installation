@@ -174,3 +174,4 @@ deepin.com.qq.office_2.0.0deepin1_i386.deb|TIM
 deepin.com.taobao.wangwang_9.11.02Cdeepin0_i386.deb|阿里旺旺
 deepin.com.thunderspeed_7.10.35.366deepin17_i386.deb|迅雷精简版
 deepin.com.wechat_2.6.2.31deepin0_i386.deb|微信
+netease-cloud-music_1.0.0_amd64_ubuntu16.04.deb|网易云音乐(1.0版本)
