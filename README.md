@@ -1,17 +1,15 @@
 # Linux Mint18/Ubuntu16.04安装deepin软件
 本文介绍如何在Linux Mint18/Ubuntu16.04上安装deepin-wine以及deepin移植的一些软件，比如微信、QQ、TIM、迅雷等。
-## 适合系统
-本文只在Linux Mint18上进行了安装，Linux Mint18是基于Ubuntu16.04的系统，所以理论上Ubuntu16.04也可以安装。
-## 预备知识
-### 安装`deb`包
+## 1. 预备知识
+### 1.1 安装`deb`包
 首先说明安装`deb`包的命令如下：
 ```
 sudo dpkg -i xxx.deb
 ```
 其中`xxx.deb`为包名
-### 错误处理
+### 1.2 可能的错误及处理
 在安装的过程中可能会出现一些错误，下面来介绍解决办法
-#### 错误一：`different version`错误
+#### 1.2.1 错误一：`different version`错误
 在安装包的时候可能会遇到版本不同的问题，类似报错信息如下：
 ```
 dpkg: warning: downgrading libgstreamer0.10-0:i386 from 0.10.36-1.5ubuntu1 to 0.10.36-1.5
@@ -53,7 +51,7 @@ After this operation, 1,006 kB disk space will be freed.
 Do you want to continue? [Y/n] Y
 ```
 输入`Y`继续，这时可能会出现**错误二**。
-#### 错误二：`overwrite`错误
+#### 1.2.2 错误二：`overwrite`错误
 错误提示在覆盖某一个文件时失败：
 ```
 (Reading database ... 596335 files and directories currently installed.)
@@ -74,7 +72,7 @@ sudo rm /usr/share/doc/libgstreamer0.10-0/changelog.Debian.gz
 sudo apt install -f
 ```
 > **注意：** 这里可能会多次处理错误二，要有耐心
-#### 错误三：`dependency`错误
+#### 1.2.3 错误三：`dependency`错误
 有时安装`deb`包的时候会出现依赖问题错误，类似如下：
 ```
 Selecting previously unselected package deepin-libwine-dev:i386.
@@ -116,9 +114,15 @@ After this operation, 14.1 MB of additional disk space will be used.
 Do you want to continue? [Y/n]
 ```
 输入`Y`继续，将依赖的包安装。
-## 安装库文件
-进入`libs`文件夹：
-首先安装如下几个包：
+## 2. 升级
+首先更新`apt`缓存并升级软件，运行：
+```
+sudo apt update
+sudo apt upgrade
+```
+> 注意：不运行这一步可能会导致GUI崩溃。
+## 3. 安装库文件
+进入`libs`文件夹，首先安装如下几个包：
 - libgif4_4.1.6-11_i386.deb
 - libgnutls26_2.12.23-18_i386.deb
 - libgnutls-deb0-28_3.3.20-1_i386.deb
@@ -128,7 +132,13 @@ Do you want to continue? [Y/n]
 - udis86_1.72-2_i386.deb
 - libgstreamer0.10-0_0.10.36-1.5_i386.deb
 - libgstreamer-plugins-base0.10-0_0.10.36-2_i386.deb
-## 安装deepin-wine
+
+运行：
+```
+sudo dpkg -i *
+sudo apt install -f
+```
+## 4. 安装deepin-wine
 进入`deepin-wine`文件夹，**按照如下顺序**安装各包。
 > **注意**：由于包之间有依赖关系，所以请按照如下顺序安装，可以重复安装，但是不能漏装
 - deepin-fonts-wine_2.18-8~rc4_all.deb
@@ -143,7 +153,13 @@ Do you want to continue? [Y/n]
 - deepin-wine-plugin-virtual_1.0deepin0_all.deb
 - deepin-wine-helper_1.1deepin9_i386.deb
 - deepin-wine-uninstaller_0.1deepin2_i386.deb
-## 安装deepin-apps
+
+文件已按照顺序编号，可直接运行：
+```
+sudo dpkg -i *
+sudo apt install -f
+```
+## 5. 安装deepin-apps
 进入`deepin-apps`文件夹，安装需要的软件，之后就可以在Launcher中找到所安装的软件了。
 >**注意：** 安装好后第一次启动时间可能较长，也可能失败，如果失败可以多长尝试几次
 
