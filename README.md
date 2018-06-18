@@ -1,5 +1,7 @@
 # Linux Mint18/Ubuntu16.04安装deepin软件
 本文介绍如何在Linux Mint18/Ubuntu16.04上安装deepin-wine以及deepin移植的一些软件，比如微信、QQ、TIM、迅雷等。
+![screenshot-desktop](images/screenshot-desktop.png)
+
 ## 1. 预备知识
 ### 1.1 安装`deb`包
 首先说明安装`deb`包的命令如下：
@@ -161,6 +163,7 @@ sudo apt install -f
 ```
 ## 5. 安装deepin-apps
 进入`deepin-apps`文件夹，安装需要的软件，之后就可以在Launcher中找到所安装的软件了。
+![screenshot-launcher](images/screenshot-launcher.png)
 >**注意：** 安装好后第一次启动时间可能较长，也可能失败，如果失败可以多长尝试几次
 
 包名和软件对照如下表：
