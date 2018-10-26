@@ -1,5 +1,5 @@
 # Tutorial to install apps packaged by Deepin
-This repo shows how to install apps packaged with deepin-wine by [Deepin](https://en.wikipedia.org/wiki/Deepin) on Ubuntu based linux distributions, like Wechat, QQ, TIM, Thunder Speed etc. [ENGLISH README]()
+This repo shows how to install apps packaged with deepin-wine by [Deepin](https://en.wikipedia.org/wiki/Deepin) on Ubuntu based linux distributions, like Wechat, QQ, TIM, Thunder Speed etc.
 
 ![screenshot-desktop](./images/screenshot-desktop.png)
 
