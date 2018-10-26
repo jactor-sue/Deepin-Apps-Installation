@@ -22,6 +22,7 @@ sudo dpkg -i xxx.deb
 ```
 
 包名和软件对照如下表：
+
 包名|软件名
 -|-
 deepin.com.baidu.pan_5.5.4deepin8_i386.deb|百度网盘

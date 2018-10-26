@@ -18,7 +18,9 @@ There are several apps under `deepin-apps` directory, choose what you want.
 cd ./deepin-apps
 sudo dpkg -i xxx.deb
 ```
+
 The package name corresponding to app's listed bellow.
+
 Package name|App name
 -|-
 deepin.com.baidu.pan_5.5.4deepin8_i386.deb|BaiduNetdisk
