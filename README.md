@@ -49,7 +49,7 @@ sudo dpkg -P xxx #xxx为安装时的包名
 ```
 #### 卸载`deepin-wine`
 ```sh
-chmod+x ./uninstall-deepin-wine.sh ./uninstall-deepin-wine.sh
+chmod+x ./uninstall-deepin-wine.sh && ./uninstall-deepin-wine.sh
 ```
 >**注意：** 卸载`deepin-wine`之后已经安装的apps会由于依赖问题也被卸载
 

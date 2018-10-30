@@ -44,7 +44,7 @@ sudo dpkg -P xxx #xxx is pacakge name of app installed
 ```
 #### Uninstall `deepin-wine`
 ```sh
-chmod+x ./uninstall-deepin-wine.sh ./uninstall-deepin-wine.sh
+chmod+x ./uninstall-deepin-wine.sh && ./uninstall-deepin-wine.sh
 ```
 >**Note：** The apps will be removed after uninstalling `deepin-wine` because of missing dependencies. 
 
@@ -57,7 +57,7 @@ LinuxMint18.x|Cinnamon|YES
 LinuxMint19.0|Cinnamon|YES
 Kubuntu|KDE Plasma|NO
 
-##FAQs
+## FAQs
 [FAQs](/docs/FAQs.md)
 
 ## Community 
