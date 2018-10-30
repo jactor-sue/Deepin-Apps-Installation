@@ -1,5 +1,5 @@
 # Deepin 软件安装教程
-本仓库介绍如何在基于Ubuntu的系统上安装deepin-wine以及[Deepin](https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)公司移植的一些软件，比如微信、QQ、TIM、迅雷等。
+本仓库介绍如何在基于Ubuntu的系统上安装deepin-wine以及[Deepin](https://www.deepin.com/)公司移植的一些软件，比如微信、QQ、TIM、迅雷等。
 
 This repo shows how to install apps packaged with deepin-wine by Deepin on Ubuntu based linux distributions, like Wechat, QQ, TIM, Thunder Speed etc. [ENGLISH README](./docs/README-en.md)
 
