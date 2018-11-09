@@ -15,7 +15,7 @@ git clone https://github.com/Jactor-Sue/Deepin-Apps-Installation.git
 chmod +x ./install-deepin-wine.sh && ./install-deepin-wine.sh
 ```
 ### 安装Deepin移植的软件
-`deepin-apps`文件夹下有一些常用的软件，选择需要的软件安装
+`deepin-apps`文件夹下有一些常用的软件，选择需要的软件安装，或直接在文件浏览器中双击安装包安装
 ```sh
 cd ./deepin-apps
 sudo dpkg -i xxx.deb

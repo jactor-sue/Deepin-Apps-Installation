@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "uninstalling deepin-wine"
-sudo dpkg -P deepin-*
+sudo apt purge deepin-fonts-wine deepin-wine-helper deepin-wine-plugin deepin-wine-uninstaller -y
 sudo apt install -fy
-sudo apt autoremove
+sudo apt autoremove -y
 echo "done."
