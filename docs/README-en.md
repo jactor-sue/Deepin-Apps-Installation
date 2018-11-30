@@ -51,8 +51,9 @@ chmod+x ./uninstall-deepin-wine.sh && ./uninstall-deepin-wine.sh
 ## Tested distribution/desktop
 Distribution|Desktop|Fit
 -|-|-
-Ubuntu16.04|Unity|YES
 Ubuntu18.04|Gnome|YES
+Ubuntu16.04|Unity|YES
+Ubuntu14.04|Unity|NO
 LinuxMint18.x|Cinnamon|YES
 LinuxMint19.0|Cinnamon|YES
 Kubuntu|KDE Plasma|NO

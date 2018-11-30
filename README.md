@@ -56,8 +56,9 @@ chmod+x ./uninstall-deepin-wine.sh && ./uninstall-deepin-wine.sh
 ## 已测试系统/桌面
 系统|桌面|支持
 -|-|-
-Ubuntu16.04|Unity|是
 Ubuntu18.04|Gnome|是
+Ubuntu16.04|Unity|是
+Ubuntu14.04|Unity|否
 LinuxMint18.x|Cinnamon|是
 LinuxMint19.0|Cinnamon|是
 Kubuntu|KDE Plasma|否
