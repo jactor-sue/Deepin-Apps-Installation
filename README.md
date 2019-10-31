@@ -9,7 +9,7 @@ This repo shows how to install apps packaged with deepin-wine by Deepin on Ubunt
 ## 克隆仓库到本地
 
 ```sh
-git clone https://github.com/Sciroccogti/Deepin-Apps-Installation.git
+git clone https://github.com/Jactor-Sue/Deepin-Apps-Installation.git
 ```
 
 ## 安装
